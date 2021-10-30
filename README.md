@@ -1,8 +1,6 @@
 # MSI GF63 9RCX Monterey 12.0.1
 MSI GF63 9RCX OpenCore 0.7.4 Monterey 12.0.1
 
-Guided by: https://dortania.github.io/OpenCore-Install-Guide/
-
 Insert your own Platforminfo in config.plist
 
 ## Configuration
