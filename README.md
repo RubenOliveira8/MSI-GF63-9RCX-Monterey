@@ -1,5 +1,5 @@
-# MSI GF63 9SCSR Monterey 12.0.1
-MSI GF63 9SCSR OpenCore 0.7.4 Monterey 12.0.1
+# MSI GF63 9RCX Monterey 12.0.1
+MSI GF63 9RCX OpenCore 0.7.4 Monterey 12.0.1
 
 Guided by: https://dortania.github.io/OpenCore-Install-Guide/
 
@@ -9,10 +9,10 @@ Insert your own Platforminfo in config.plist
 
 | Specifications | Detail |
 | ------------------- | ------------------------------------------- |
-| Computer model      | GF63 Thin 9SCSR 15.6' (GTX 1650 TI)      |
+| Computer model      | GF63 Thin 9RCX 15.6' (GTX 1050 TI)      |
 | Processor           | Intel Core i5-9300H Processor     |
 | Memory              | 16 Gb DDR4 2666 Mhz             |
-| Hard Disk           | M2 Silicon Power 512 Gb    |
+| Hard Disk           | M2 NVMe 256GB & SATA HDD 1TB    |
 | Integrated Graphics | Intel UHD Graphics 630                     |
 | Monitor             | IPS FHD 1920x1080 (15.6 inch) |
 | Sound Card          | Realtek Audio ALC233         |
@@ -21,6 +21,7 @@ Insert your own Platforminfo in config.plist
 
 ## Works
 - Intel UHD 630 Graphics Acceleration
+- Hdmi Video/Audio Out
 - Facetime + iMessage
 - Sleep/Wake
 - Realtek alc233 Audio
@@ -35,8 +36,7 @@ Insert your own Platforminfo in config.plist
 - Handoff
 
 ## Dont Work
-- AirDrop
-- HDMI
+- AirDrop (Due to card imcompatibility, worked in older versions of itwlm for Catalina but does not work anymore BigSur and newer)
 
 ## Disabled
-- GTX1650ti dGPU
+- GTX1050ti dGPU
